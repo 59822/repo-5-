@@ -278,7 +278,7 @@ class Shape:
 ```python
 rectangle.py
 
-from shape import shape2
+from shapes2 import shape2
 
 class Rectangle(Shape):
     def __init__(self, vertices: list[Point], edges: list[Line], inner_angles: list[float]):
@@ -305,7 +305,7 @@ class Square(Rectangle):
 
 triangle.py
 
-from shape import shape2
+from shapes2 import shape2
 
 class Triangle(Shape):
     def __init__(self, vertices: list[Point], edges: list[Line], inner_angles: list[float]):
